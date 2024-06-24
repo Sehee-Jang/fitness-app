@@ -25,10 +25,10 @@ export default function App() {
                     <CustomButton
                         title="Continue with Email"
                         handlePress={() => router.push('/sign-in')}
-                        containerStyles="w-full mt-7"
+                        containerStyles="w-full mt-8"
                     />
 
-                    <StatusBar backgroundColor='#161622' style='light'/>
+                    <StatusBar backgroundColor='#161622' style='light' />
                 </View>
             </ScrollView>
         </SafeAreaView>
